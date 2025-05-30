@@ -8,6 +8,7 @@ const Nav = () => {
             </div>
             <div className='nav-items-cont'>
                 <div className='nav-link-cont'>
+                    <img className='nav-item-arrow' alt='arrow icon' src='/images/nav-item-arrow.png'></img>
                     <p className='nav-link'>Products</p>
                 </div>
                 <div className='nav-link-cont'>
