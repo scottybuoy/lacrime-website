@@ -4,7 +4,7 @@ const Nav = () => {
     return (
         <div className='nav-cont'>
             <div className='logo-cont'>
-                <img id='whole-logo' alt='whole company logo' src='/images/whole-logo.png'></img>
+                <img id='whole-logo' alt='whole company logo' src={`${process.env.PUBLIC_URL}/images/whole-logo.png`}></img>
             </div>
             <div className='nav-items-cont'>
                 <div className='nav-link-cont'>
