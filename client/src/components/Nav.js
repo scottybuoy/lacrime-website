@@ -8,11 +8,11 @@ const Nav = () => {
             </div>
             <div className='nav-items-cont'>
                 <div className='nav-link-cont'>
-                    <img className='nav-item-arrow' alt='arrow icon' src='/images/nav-item-arrow.png'></img>
+                    <img className='nav-item-arrow' alt='arrow icon' src={`${process.env.PUBLIC_URL}/images/nav-item-arrow.png`}></img>
                     <p className='nav-link'>Products</p>
                 </div>
                 <div className='nav-link-cont'>
-                    <img id='shopping-basket' alt='shopping basket icon' src='/images/basket.png'/>
+                    <img id='shopping-basket' alt='shopping basket icon' src={`${process.env.PUBLIC_URL}/images/basket.png`}/>
                 </div>
             </div>
         </div>
