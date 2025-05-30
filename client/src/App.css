@@ -13,6 +13,7 @@
 
 /* NAV BAR */
 .nav-cont {
+  z-index: 1;
   left: 0;
   top: 0;
   background-color: rgb(215, 215, 215);
@@ -145,27 +146,24 @@
 }
 
 @media screen and (max-width: 760px) {
-  /* #lacrime-hero-cont {
-    display: none;
-  }
 
-  #lacrime-hero-mobile-cont {
-    background-color: pink;
-    display: flex;
-    align-items: center;
-  } */
    #lacrime-hero-cont {
-    margin-top:25%;
+    margin-top:35%;
     flex-direction: column-reverse;
     align-items: center;
+    min-width: 100%;
    }
 
    #lacrime-hero-right-cont {
     margin-bottom: 10%;
     border: none;
     border-bottom: 3px solid grey;
-    width: 50%;
+    width: 80%;
     padding: 4%;
+   }
+
+   #lacrime-hero-left-cont {
+    width: 80%;
    }
 
    #comin-soon-sticker {
