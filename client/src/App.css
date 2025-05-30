@@ -1,3 +1,117 @@
-.App {
-  text-align: center;
+* {
+  box-sizing: border-box;
+}
+
+#app-cont {
+  display: flex;;
+}
+
+/* NAV BAR */
+.nav-cont {
+  top: 0;
+  background-color: rgb(215, 215, 215);
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px;
+  box-shadow: rgb(0, 0, 0, .3) 0px 0px 10px 1px;
+}
+
+.nav-items-cont {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link-cont {
+  margin-left: 40px;
+}
+
+.nav-link {
+  color: rgb(69, 69, 69);
+}
+
+#whole-logo {
+  width: 100px;
+  opacity: .8;
+}
+
+#shopping-basket {
+  width: 30px;
+  opacity: .6;
+}
+
+/* HOME */
+#home-cont {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+/* LACRIME HERO */
+#lacrime-hero-cont {
+  margin-top: 10%;
+  width: 80%;
+  max-height: 60%;
+  min-width: 850px;
+  display: flex;
+}
+
+#lacrime-hero-left-cont {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#lacrime-logo-hero-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+#comin-soon-sticker {
+  position: absolute;
+  width: 25%;
+  left: 0;
+  top: -70%;
+}
+
+#lacrime-logo-hero {
+  width: 70%;
+  margin-bottom: 5%;
+}
+
+#lacrime-hero-left-cont-inner {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: end;
+}
+
+#lacrime-hero-by {
+  font-size: 40px;
+  margin: 0;
+  margin-right: 2%;
+}
+
+#whole-logo-hero {
+  width: 30%;
+  margin-left: 2%;
+}
+
+#lacrime-hero-right-cont {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 3px solid grey;
+}
+
+#serum-bottle-hero {
+  width: 40%;
 }
