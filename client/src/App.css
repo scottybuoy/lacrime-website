@@ -5,7 +5,7 @@
 #app-cont {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   height: 100vh;
   min-height: 800px;
@@ -16,15 +16,24 @@
   z-index: 1;
   left: 0;
   top: 0;
-  background-color: rgb(215, 215, 215);
+  background-color: rgb(244, 244, 244);
   position: fixed;
   width: 100%;
-  height: 60px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0px 20px;
-  box-shadow: rgb(0, 0, 0, .3) 0px 0px 10px 1px;
+  box-shadow: rgb(0, 0, 0, .1) 0px 0px 10px 1px;
+}
+
+.nav-logo-cont {
+  background-color: grey;
+  height: 50px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-items-cont {
@@ -62,6 +71,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 /* LACRIME HERO */
@@ -70,11 +80,12 @@
 }
 
 #lacrime-hero-cont {
-  margin-top: 11%;
+  /* margin-top: 11%; */
   width: 80%;
   max-height: 60%;
   min-width: 850px;
   display: flex;
+  justify-content: center;
 }
 
 #lacrime-hero-left-cont {
@@ -113,7 +124,7 @@
 
 #lacrime-hero-by {
   color: grey;
-  font-size: 40px;
+  font-size: 35px;
   margin: 0;
   margin-right: 2%;
 }
@@ -147,29 +158,23 @@
 
 @media screen and (max-width: 760px) {
 
-   #lacrime-hero-cont {
-    margin-top:35%;
+  #lacrime-hero-cont {
+    /* margin-top:35%; */
     flex-direction: column-reverse;
     align-items: center;
     min-width: 100%;
-   }
+  }
 
-   #lacrime-hero-right-cont {
+  #lacrime-hero-left-cont {
+    width: 80%;
+  }
+
+  #lacrime-logo-hero {
+    width: 90%;
     margin-bottom: 10%;
-    border: none;
-    border-bottom: 3px solid grey;
-    width: 80%;
-    padding: 4%;
-   }
+  }
 
-   #lacrime-hero-left-cont {
-    width: 80%;
-   }
-
-   #comin-soon-sticker {
-    position: absolute;
-    width: 20%;
-    left: 15%;
-    top: -300%;
+  #lacrime-hero-by {
+    font-size: 25px;
   }
 }
