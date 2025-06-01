@@ -1,5 +1,4 @@
 import LacrimeHero from "../components/LacrimeHero";
-import LacrimeHeroMobile from "../components/LacrimeHeroMobile";
 
 const Home = () => {
   return (
