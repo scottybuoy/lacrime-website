@@ -4,7 +4,6 @@ const Home = () => {
   return (
     <div id='home-cont'>
       <LacrimeHero />
-      {/* <LacrimeHeroMobile /> */}
     </div>
 
 
