@@ -1,14 +1,16 @@
 * {
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #app-cont {
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
-  height: 100vh;
-  min-height: 800px;
+  justify-content: space-between;
+  /* height: 100vh; */
+  min-height: 100vh;
+
 }
 
 /* NAV BAR */
@@ -50,6 +52,10 @@
 .nav-link {
   color: rgb(69, 69, 69);
   margin-left: 5px;
+}
+
+.link {
+  text-decoration: none;
 }
 
 #whole-logo {
@@ -143,20 +149,260 @@
   width: 40%;
 }
 
+/* PRODUCTS */
+#products-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+}
+
+#serum-coming-soon-cont {
+  background-image: url('../public/images/serum-coming-soon.png');
+  background-size: cover;
+  width: 80%;
+  height: 400px;
+  max-width: 914px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  padding-right: 5%;
+  position: relative;
+}
+
+#mailing-list-btn {
+  /* background-color: rgb(75, 133, 96); */
+  background-color: rgb(151, 94, 80);
+  border-style: none;
+  border-radius: 25px;
+  box-shadow: 0px 0px 10px rgb(160, 160, 160);
+  color: white;
+  padding: 15px;
+}
+
+#mailing-list {
+  font-weight: 900;
+  font-style: italic;
+}
+
+#product-intro-cont {
+  width: 45%;
+  /* display: flex;
+  align-items: center; */
+}
+
+#lacrime-logo-product-intro {
+  width: 70%;
+  position: relative;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#product-intro-msg {
+  margin: 0px;
+  color: rgb(84, 84, 84);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#coming-soon-banner {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+  background-color: rgb(238, 193, 181);
+  position: relative;
+}
+
+.color-bar {
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  top: 0;
+  background-image: url('../public/images/color-bar.png');
+  background-size: contain;
+}
+
+#available-soon-msg {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-size: 35px;
+  font-style: italic;
+  color: white;
+  margin: 0px;
+  margin-right: 20px;
+}
+
+#product-intro-cont-mobile {
+  display: none;
+}
+
+#product-more-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.product-more-inner-cont {
+  width: 30%;
+  background-color: rgb(121, 179, 204);
+  padding: 2%;
+  /* border-radius: 5px; */
+}
+
+#product-desc {
+  columns: 2;
+  color: white;
+}
+
+#product-formula {
+  color: white;
+}
+
+#product-formula-cont {
+
+}
+
+#product-formula-title {
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  margin: 16px;
+}
+
+#product-formula {
+
+}
+
+.ingredient-name {
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+.ingredient-desc {
+  color: white;
+  font-style: italic;
+  padding-left: 20px;
+  margin-top: 0px;
+}
+
+#product-together-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(216, 225, 233);
+  padding: 5% 2%;
+  margin-top: 5%;
+}
+
+#together-copy-cont {
+  width: 30%;
+  margin-right: 4%;
+  border-style: solid;
+  border-color: grey;
+  border-width: 0px 0px 0px 5px;
+  padding-left: 20px;
+}
+
+#together-copy {
+  color: rgb(77, 77, 77);
+  margin: 0px;
+}
+
+#together-slogan {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  color: grey;
+}
+
+#application-guide-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+#application-guide-inner-cont {
+  width: 55%;
+  /* background-color: rgb(203, 203, 203); */
+  border: 1px solid grey;
+  padding: 30px 50px;
+}
+
+#application-guide-title {
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.application-instruction {
+  margin: 10px;
+  font-style: italic;
+}
+
+/* ABOUT */
+#about-cont {
+  margin-top: 10%;
+  width: 60%;
+}
+
+#about-slogan {
+  font-size: 28px;
+  font-weight: 900;
+  font-style: italic;
+  color: rgb(80, 80, 80);
+}
+
+/* TESTIMONIAL */
+#testimonial-cont {
+  width: 100%;
+  background-color: rgb(238, 193, 181);
+  color: white;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0% 15%;
+  margin-top: 75px;
+}
+
+#testimonial-copy {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 28px;
+  text-align: center;
+}
+
+/* FOOTER */
 #footer {
   width: 100%;
-  height: 50px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 11px;
   color: grey;
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  margin-top: 2%;
+  background-color: rgb(246, 247, 249);
+  /* position: absolute;
+  bottom: 0; */
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
 
+  /* LEGACY HERO */
   #lacrime-hero-cont {
-    /* margin-top:35%; */
     flex-direction: column-reverse;
     align-items: center;
     min-width: 100%;
@@ -173,5 +419,126 @@
 
   #lacrime-hero-by {
     font-size: 25px;
+  }
+
+  /* PRODUCTS */
+  #serum-coming-soon-cont {
+    width: 100%;
+  }
+
+  #product-intro-cont {
+    display: none;
+  }
+
+  #product-intro-cont-mobile {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    padding: 20px;
+    position: relative;
+  }
+
+  #lacrime-logo-product-intro-mobile {
+    width: 70%;
+    margin-bottom: 15px;
+  }
+
+  #product-intro-msg-cont-mobile {
+    width: 80%;
+  }
+
+  #coming-soon-banner {
+    margin: 0px;
+    height: 100px;
+    box-shadow: 0px 10px 15px rgb(89, 147, 177);
+  }
+
+  #available-soon-msg {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: 28px;
+    font-style: italic;
+    color: white;
+    margin: 0px;
+    margin-right: 20px;
+  }
+
+  #product-more-cont {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(121, 179, 204);
+    margin-top: 0px;
+    padding-top: 50px;
+  }
+
+  #product-desc {
+    columns: 1;
+  }
+
+  .product-more-inner-cont {
+    width: 85%;
+    background-color: rgb(121, 179, 204);
+    padding: 30px;
+    margin-bottom: 35px;
+    border: 1px solid white;
+  }
+
+  .color-bar {
+    display: none;
+  }
+
+  .mobile-color-bar {
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    background-color: pink;
+    left: 0;
+  }
+
+  #serum-color-bar {
+    background-color: rgb(107, 107, 107);
+  }
+
+  #product-intro-color-bar {
+    background-color: rgb(211, 161, 91);
+  }
+
+  #coming-soon-color-bar {
+    background-color: rgb(186, 131, 119);
+  }
+
+  #product-together-cont {
+    flex-direction: column;
+    margin-top: 0px;
+    padding: 10% 0%;
+  }
+  
+  #together-copy-cont {
+    width: 80%;
+    margin: 10% 0%;
+  }
+  
+  #together-copy {
+    color: rgb(77, 77, 77);
+    margin: 0px;
+  }
+  
+  #together-slogan {
+    margin: 10% 0%;
+  }
+
+  #application-guide-inner-cont {
+    width: 100%;
+    border: none;
+  }
+
+  #testimonial-cont {
+    padding: 0% 5%;
   }
 }
