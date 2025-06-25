@@ -1,10 +1,10 @@
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import Nav from './components/Nav';
-import Products from './pages/Products';
-import About from './pages/About';
-import OurScience from './pages/OurScience';
+// import Nav from './components/Nav';
+// import Products from './pages/Products';
+// import About from './pages/About';
+// import OurScience from './pages/OurScience';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -18,7 +18,7 @@ function App() {
             path='/'
             element={<Home />}
           />
-          <Route
+          {/* <Route
             path='/products'
             element={<Products />}
           />
@@ -29,7 +29,7 @@ function App() {
           <Route
             path='/our-science'
             element={<OurScience />}
-          />
+          /> */}
         </Routes>
       </Router>
       <Footer />
