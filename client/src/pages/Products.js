@@ -5,6 +5,7 @@ const Products = () => {
         <>
             <div id='products-cont'>
                 <div id='serum-coming-soon-cont'>
+                    <img alt='lacrime serum bottle' src='/images/bottle-w-shadow.png' id='product-serum'></img>
                     <div id='product-intro-cont'>
                         <img alt='lacrime logo' src='/images/lacrime-logo.png' id='lacrime-logo-product-intro'></img>
                         <div id='product-intro-msg-cont'>

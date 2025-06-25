@@ -58,6 +58,11 @@
   text-decoration: none;
 }
 
+.link:hover,
+.nav-link-cont {
+  cursor: pointer;
+}
+
 #whole-logo {
   width: 100px;
   opacity: .8;
@@ -74,10 +79,64 @@
 
 /* HOME */
 #home-cont {
-  height: 100vh;
+  margin-top: 50px;
+  /* display: flex;
+  justify-content: center; */
+}
+
+#mission-stmnt-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../public/images/serum-backdrop.png');
+  background-size: cover;
+  width: 100%;
+  padding: 50px;
+  height: 450px;
+  position: relative;
+}
+
+#home-intro-logo {
+  width: 500px;
+}
+
+#mission-stmnt {
+  width: 45%;
+  font-size: 20px;
+}
+
+#home-product-cont {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: aliceblue;
+  padding: 5%;
+}
+
+#home-product-both {
+  width: 25%;
+}
+
+#home-product-logo-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 35%;
+}
+
+#home-product-copy {
+  padding: 50px;
+  width: 35%;
+}
+
+#home-product-logo {
+  width: 85%;
+}
+
+#home-product-logo-slogan {
+ 
 }
 
 /* LACRIME HERO */
@@ -160,16 +219,20 @@
 }
 
 #serum-coming-soon-cont {
-  background-image: url('../public/images/serum-coming-soon.png');
+  background-image: url('../public/images/serum-backdrop.png');
   background-size: cover;
   width: 80%;
   height: 400px;
   max-width: 914px;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: space-around;
   align-items: center;
-  padding-right: 5%;
   position: relative;
+}
+
+#product-serum {
+  width: 25%;
+  margin-top: 35px;
 }
 
 #mailing-list-btn {
@@ -265,19 +328,11 @@
   color: white;
 }
 
-#product-formula-cont {
-
-}
-
 #product-formula-title {
   font-size: 30px;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
   margin: 16px;
-}
-
-#product-formula {
-
 }
 
 .ingredient-name {
@@ -376,10 +431,17 @@
 }
 
 #testimonial-copy {
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 28px;
   text-align: center;
+}
+
+#testimonial-source {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 900;
 }
 
 /* FOOTER */
@@ -399,6 +461,18 @@
   bottom: 0; */
 }
 
+/* TABLET */
+@media screen and (max-width: 1024px) {
+  #home-intro-logo {
+    width: 50%;
+  }
+
+  #mission-stmnt {
+    font-size: 18px;
+  }
+}
+
+/* MOBILE */
 @media screen and (max-width: 768px) {
 
   /* LEGACY HERO */
@@ -421,9 +495,28 @@
     font-size: 25px;
   }
 
+  /* HOME */
+  #mission-stmnt-cont {
+    flex-direction: column;
+  }
+
+  #home-intro-logo {
+    width: 90%;
+  }
+
+  #mission-stmnt {
+    width: 90%;
+    margin-top: 50px;
+  }
+
   /* PRODUCTS */
   #serum-coming-soon-cont {
     width: 100%;
+  }
+
+  #product-serum {
+    width: 40%;
+    margin-left: -20px;
   }
 
   #product-intro-cont {
@@ -518,17 +611,17 @@
     margin-top: 0px;
     padding: 10% 0%;
   }
-  
+
   #together-copy-cont {
     width: 80%;
     margin: 10% 0%;
   }
-  
+
   #together-copy {
     color: rgb(77, 77, 77);
     margin: 0px;
   }
-  
+
   #together-slogan {
     margin: 10% 0%;
   }
@@ -541,4 +634,6 @@
   #testimonial-cont {
     padding: 0% 5%;
   }
+
+  
 }
