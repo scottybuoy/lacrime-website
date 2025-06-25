@@ -12,7 +12,7 @@ function App() {
   return (
     <div id='app-cont'>
       <Router>
-        <Nav />
+        {/* <Nav /> */}
         <Routes>
           <Route
             path='/'
