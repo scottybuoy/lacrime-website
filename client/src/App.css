@@ -79,7 +79,7 @@
 
 /* HOME */
 #home-cont {
-  margin-top: 50px;
+  margin-top: 35px;
   /* display: flex;
   justify-content: center; */
 }
@@ -103,6 +103,26 @@
 #mission-stmnt {
   width: 45%;
   font-size: 20px;
+}
+
+#from-within-cont {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(238, 193, 181);
+  margin: 5% 0%;
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(128, 128, 128, 0.49);
+}
+
+#from-within-copy {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 25px;
+  color: white;
 }
 
 #home-product-cont {
@@ -135,8 +155,46 @@
   width: 85%;
 }
 
-#home-product-logo-slogan {
- 
+#home-product-logo-slogan {}
+
+#how-it-works-cont {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#how-it-works-inner-cont {
+  width: 50%;
+  border: 1px solid grey;
+  padding: 35px 50px;
+}
+
+#how-it-works-title {
+  font-size: 22px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#how-it-works-intro {
+  color: rgb(94, 94, 94);
+}
+
+#how-it-works-outro {
+  color: rgb(94, 94, 94);
+  margin-top: 50px;
+}
+
+#how-it-works-ing {
+  color: black;
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+#how-it-works-desc {
+  color: black;
+  font-style: italic;
+  padding-left: 20px;
+  margin-top: 0px;
 }
 
 /* LACRIME HERO */
@@ -404,16 +462,27 @@
 }
 
 /* ABOUT */
+
 #about-cont {
-  margin-top: 10%;
-  width: 60%;
+  margin-top: 35px;
+}
+
+#about-slogan-cont {
+  width: 100%;
+  background-color: rgb(165, 176, 179);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
 }
 
 #about-slogan {
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 28px;
   font-weight: 900;
   font-style: italic;
-  color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 /* TESTIMONIAL */
@@ -444,6 +513,103 @@
   font-weight: 900;
 }
 
+/* SCIENCE */
+
+#science-cont {
+  width: 100%;
+}
+
+#science-tagline-cont {
+  height: 500px;
+  width: 100%;
+  background-image: url('../public/images/serum-backdrop.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#science-tagline-inner-cont {
+  border: 1px solid white;
+  width: 25%;
+  min-width: 250px;
+}
+
+#science-name {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+}
+
+#science-tagline {
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 45px;
+  font-weight: 900;
+  font-style: italic;
+  margin: 0px;
+  padding: 20px 30px;
+}
+
+#science-credentials {
+  font-size: 25px;
+  color: white;
+  width: 50%;
+  padding: 50px;
+}
+
+#science-intro-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 350px; */
+  flex-wrap: wrap;
+  padding: 85px 50px;
+}
+
+#science-intro {
+  columns: 2;
+  width: 80%;
+}
+
+#science-findings {
+  width: 80%;
+}
+
+#science-findings-data-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(165, 176, 179);
+  padding: 100px;
+  width: 100%;
+}
+
+#science-findings-data-inner-cont {
+  padding: 50px;
+  color: white;
+  border: 1px solid white;
+  width: 650px;
+}
+
+#science-ingredients-title {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+#science-ingredients-cont {
+  width: 650px;
+  background-color: rgb(238, 239, 241);
+  padding: 50px;
+  margin-top: 50px;
+}
+
+#science-ingredients-disclaimer {
+  width: 650px;
+  color: white;
+  margin-top:  25px;
+  font-size: 15px;
+}
+
 /* FOOTER */
 #footer {
   width: 100%;
@@ -455,7 +621,7 @@
   color: grey;
   border-style: solid;
   border-width: 1px 0px 0px 0px;
-  margin-top: 2%;
+  /* margin-top: 10%; */
   background-color: rgb(246, 247, 249);
   /* position: absolute;
   bottom: 0; */
@@ -498,6 +664,7 @@
   /* HOME */
   #mission-stmnt-cont {
     flex-direction: column;
+    height: 80vh;
   }
 
   #home-intro-logo {
@@ -507,6 +674,45 @@
   #mission-stmnt {
     width: 90%;
     margin-top: 50px;
+  }
+
+  #from-within-cont {
+    margin: 0px;
+    box-shadow: none;
+  }
+
+  #home-product-cont {
+    flex-direction: column;
+  }
+
+  #home-product-both {
+    width: 100%;
+  }
+
+  #home-product-logo-cont {
+    width: 100%;
+  }
+
+  #home-product-copy {
+    padding: 50px;
+    width: 100%;
+  }
+
+  #home-product-logo {
+    width: 85%;
+  }
+
+  #how-it-works-cont {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  #how-it-works-inner-cont {
+    width: 100%;
+    border: none;
+    padding: 35px 50px;
   }
 
   /* PRODUCTS */
@@ -635,5 +841,64 @@
     padding: 0% 5%;
   }
 
-  
+  /* ABOUT */
+  #about-slogan {
+    font-size: 35px;
+  }
+
+  /* SCIENCE */
+  #science-tagline-cont {
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+  }
+
+  #science-tagline-inner-cont {
+    width: 80%;
+    border-style: none;
+    margin-bottom: 50px;
+  }
+
+  #science-tagline {
+    width: 100%;
+    padding-left: 20%;
+  }
+
+  #science-credentials {
+    width: 80%;
+    padding: 30px 30px 50px 5%;
+    border-style: solid;
+    border-width: 0px 0px 0px 15px;
+    margin-left: 5%;
+  }
+
+  #science-intro-cont {
+    height: auto;
+    padding: 50px;
+  }
+
+  #science-intro {
+    columns: auto;
+  }
+
+  #science-findings-data-cont {
+    width: 100%;
+    padding: 15% 8%;
+  }
+
+  #science-findings-data-inner-cont {
+    padding: 50px;
+    color: white;
+    border: 1px solid white;
+    width: 100%;
+  }
+
+  #science-ingredients-cont {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  #science-ingredients-disclaimer {
+    width: 100%;
+  }
 }

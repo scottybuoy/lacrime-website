@@ -9,7 +9,7 @@ const Products = () => {
                     <div id='product-intro-cont'>
                         <img alt='lacrime logo' src='/images/lacrime-logo.png' id='lacrime-logo-product-intro'></img>
                         <div id='product-intro-msg-cont'>
-                            <p id='product-intro-msg'> <span className='bold'>Whole Co. presents Lacrimé serum:</span>a pioneer in beauty and science that seeks to reenvision the established capabilities of skincare.
+                            <p id='product-intro-msg'> <span className='bold'>Whole Co. presents Lacrimé serum:</span> a pioneer in beauty and science that seeks to reenvision the established capabilities of skincare.
                             </p>
                         </div>
                     </div>
@@ -78,10 +78,10 @@ const Products = () => {
                         <p id='application-guide-title'>Application Guide</p>
                         <p id='application-guide-intro'>Our skin serum is best administered as a self-soothing and revitalizing ritual each morning.</p>
                         <ol id='application-guide-instructions'>
-                            <li class='application-instruction'>Tilt the Lacrimé serum tincture once for the best blend of physical and emotional renewal.</li>
-                            <li class='application-instruction'> Apply two to three drops below each eye.</li>
-                            <li class='application-instruction'>Locate your hands’ energy meridians - the flat area where your thumb and index knuckle join in a fist - and pat the serum until spread evenly.</li>
-                            <li class='application-instruction'>Feel the balance of Lacrimé.</li>
+                            <li className='application-instruction'>Tilt the Lacrimé serum tincture once for the best blend of physical and emotional renewal.</li>
+                            <li className='application-instruction'> Apply two to three drops below each eye.</li>
+                            <li className='application-instruction'>Locate your hands’ energy meridians - the flat area where your thumb and index knuckle join in a fist - and pat the serum until spread evenly.</li>
+                            <li className='application-instruction'>Feel the balance of Lacrimé.</li>
                         </ol>
                     </div>
                 </div>
