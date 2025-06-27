@@ -5,6 +5,7 @@ import Nav from './components/Nav';
 import Products from './pages/Products';
 import About from './pages/About';
 import OurScience from './pages/OurScience';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -29,6 +30,10 @@ function App() {
           <Route
             path='/our-science'
             element={<OurScience />}
+          />
+           <Route
+            path='/contact'
+            element={<Contact />}
           />
         </Routes>
       </Router>

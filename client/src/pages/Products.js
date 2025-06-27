@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Testimonial from "../components/Testimonial";
 
 const Products = () => {
@@ -27,7 +28,9 @@ const Products = () => {
                 {/* ---------- */}
                 <div id='coming-soon-banner'>
                     <p id='available-soon-msg'>Available soon!</p>
-                    <button id='mailing-list-btn'>Join Our <span id='mailing-list'>Mailing List!</span></button>
+                    <Link to={'/contact'}>
+                        <button id='mailing-list-btn'>Join Our <span id='mailing-list'>Mailing List!</span></button>
+                    </Link>
                     <div className='color-bar'></div>
                     <div className='mobile-color-bar' id='coming-soon-color-bar'></div>
                 </div>
@@ -85,7 +88,7 @@ const Products = () => {
                         </ol>
                     </div>
                 </div>
-               <Testimonial />
+                <Testimonial />
             </div>
         </>
     )
