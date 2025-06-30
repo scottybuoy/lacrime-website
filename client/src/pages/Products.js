@@ -6,9 +6,9 @@ const Products = () => {
         <>
             <div id='products-cont'>
                 <div id='serum-coming-soon-cont'>
-                    <img alt='lacrime serum bottle' src='/images/bottle-w-shadow.png' id='product-serum'></img>
+                    <img alt='lacrime serum bottle' src={`${process.env.PUBLIC_URL}/images/bottle-w-shadow.png`} id='product-serum'></img>
                     <div id='product-intro-cont'>
-                        <img alt='lacrime logo' src='/images/lacrime-logo.png' id='lacrime-logo-product-intro'></img>
+                        <img alt='lacrime logo' src={`${process.env.PUBLIC_URL}/images/lacrime-logo.png`} id='lacrime-logo-product-intro'></img>
                         <div id='product-intro-msg-cont'>
                             <p id='product-intro-msg'> <span className='bold'>Whole Co. presents Lacrimé serum:</span> a pioneer in beauty and science that seeks to reenvision the established capabilities of skincare.
                             </p>
@@ -18,7 +18,7 @@ const Products = () => {
                 </div>
                 {/* MOBILE ONLY */}
                 <div id='product-intro-cont-mobile'>
-                    <img alt='lacrime logo' src='/images/lacrime-logo.png' id='lacrime-logo-product-intro-mobile'></img>
+                    <img alt='lacrime logo' src={`${process.env.PUBLIC_URL}/images/lacrime-logo.png`} id='lacrime-logo-product-intro-mobile'></img>
                     <div id='product-intro-msg-cont-mobile'>
                         <p id='product-intro-msg'> <span className='bold'>Whole Co. presents Lacrimé serum:</span>a pioneer in beauty and science that seeks to reenvision the established capabilities of skincare.
                         </p>

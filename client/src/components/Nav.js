@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
+import BurgerMenuIcon from './BurgerMenuIcon';
 
 const Nav = () => {
 
     let url = useLocation().pathname.split('/')[1];
-    
+
     const [activeLink, setActiveLink] = useState('');
 
     // const updateActiveLink = (e) => {
@@ -29,7 +30,7 @@ const Nav = () => {
     }
 
     const activeLinkStyling = () => {
-        
+
     }
 
     return (
@@ -72,6 +73,7 @@ const Nav = () => {
                     <img id='shopping-basket' alt='shopping basket icon' src={`${process.env.PUBLIC_URL}/images/basket.png`} />
                 </div> */}
             </div>
+            <BurgerMenuIcon />
         </div>
     )
 }
