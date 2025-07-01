@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/lacrime-website/static/css/main.3d369e97.css",
-    "main.js": "/lacrime-website/static/js/main.cc75abef.js",
+    "main.css": "/lacrime-website/static/css/main.ad629d71.css",
+    "main.js": "/lacrime-website/static/js/main.4a524b91.js",
     "static/js/453.43582337.chunk.js": "/lacrime-website/static/js/453.43582337.chunk.js",
     "static/media/serum-backdrop.png": "/lacrime-website/static/media/serum-backdrop.6b40676c971270b7e812.png",
     "index.html": "/lacrime-website/index.html",
-    "main.3d369e97.css.map": "/lacrime-website/static/css/main.3d369e97.css.map",
-    "main.cc75abef.js.map": "/lacrime-website/static/js/main.cc75abef.js.map",
+    "main.ad629d71.css.map": "/lacrime-website/static/css/main.ad629d71.css.map",
+    "main.4a524b91.js.map": "/lacrime-website/static/js/main.4a524b91.js.map",
     "453.43582337.chunk.js.map": "/lacrime-website/static/js/453.43582337.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d369e97.css",
-    "static/js/main.cc75abef.js"
+    "static/css/main.ad629d71.css",
+    "static/js/main.4a524b91.js"
   ]
 }
